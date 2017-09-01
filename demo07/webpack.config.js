@@ -1,6 +1,5 @@
-var webpack = require('webpack')
-var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin
-
+var webpack = require('webpack');
+var uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 module.exports = {
   entry: './main.js',
   output: {
@@ -13,4 +12,4 @@ module.exports = {
       }
     })
   ]
-}
+};
